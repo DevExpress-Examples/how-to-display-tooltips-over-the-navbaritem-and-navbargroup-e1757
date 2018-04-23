@@ -1,0 +1,32 @@
+﻿<Window x:Class="NavBarToolTip.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:my="clr-namespace:DevExpress.Wpf.NavBar;assembly=DevExpress.Wpf.NavBar.v9.2"
+    Title="Window1" Height="370" Width="398" xmlns:dxn="http://schemas.devexpress.com/winfx/2008/xaml/navbar" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors">
+    <Grid>
+        <my:NavBarControl Margin="41,63,36,12" Name="Group2" MouseMove="NavBarControl_MouseMove" MouseLeave="NavBarControl_MouseLeave">
+            <my:NavBarControl.Groups>
+                <my:NavBarGroup Header="Group1">
+                    <my:NavBarItem>Item1</my:NavBarItem>
+                    <my:NavBarItem>Item2</my:NavBarItem>
+                </my:NavBarGroup>
+                <my:NavBarGroup Header="Group2" >
+                    <my:NavBarItem>Item3</my:NavBarItem>
+                    <my:NavBarItem>Item4</my:NavBarItem>
+                </my:NavBarGroup>
+            </my:NavBarControl.Groups>
+            <my:NavBarControl.View>
+                <my:ExplorerBarView  />
+            </my:NavBarControl.View>
+        </my:NavBarControl>
+        <Popup x:Name="tooltip" AllowsTransparency="True">
+            <Border CornerRadius="9"
+                    Background="White"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Padding="5">
+                <TextBlock x:Name="tooltip_text" />
+            </Border>
+        </Popup>
+    </Grid>
+</Window>
