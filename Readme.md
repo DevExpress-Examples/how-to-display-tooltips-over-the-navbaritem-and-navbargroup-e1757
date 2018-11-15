@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Window1.xaml](./CS/NavBarToolTip/Window1.xaml) (VB: [Window1.xaml.vb](./VB/NavBarToolTip/Window1.xaml.vb))
+* [Window1.xaml.cs](./CS/NavBarToolTip/Window1.xaml.cs) (VB: [Window1.xaml.vb](./VB/NavBarToolTip/Window1.xaml.vb))
+<!-- default file list end -->
 # How to display tooltips over the NavBarItem and NavBarGroup
 
 
