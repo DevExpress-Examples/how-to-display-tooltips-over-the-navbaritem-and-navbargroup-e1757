@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/WpfApplication40/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfApplication40/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/WpfApplication40/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/WpfApplication40/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/WpfApplication40/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfApplication40/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to display tooltips over the NavBarItem and NavBarGroup
 
